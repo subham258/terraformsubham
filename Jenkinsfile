@@ -17,7 +17,7 @@ pipeline {
         }        
         stage ('terraform apply in gcp') {
             steps {
-                sh 'terafform apply --var-file=terafform.tfvars --auto-approve'
+                sh 'teraform apply --var-file=terafform.tfvars --auto-approve'
             }
         } 
     }
